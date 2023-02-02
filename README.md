@@ -1,16 +1,19 @@
 ## Wisenet Frontend Take-Home Task
 
-Owner|Type
----|---
-Front-End Chapter|Support
+| Owner             | Type    |
+| ----------------- | ------- |
+| Front-End Chapter | Support |
 
 ### Welcome
 
-Welcome to the "take-home tech task". This repository contains an application that, when running, will request data from our GraphQL server and render a basic product listing page. It's a simple page, with a header, sidebar, some articles and a footer. Your task is to spend some time looking at how it is built and try to improve it by refactoring the code into something that you would be personally proud of.
+Welcome to the "take-home tech task". This repository contains an application that, when running, will request data from our GraphQL server and render a basic product listing page. It's a simple page, with a header, sidebar, some articles and a footer. Your task is to spend some time looking at how it is built and try to improve it by refactoring the code into something that you would be personally proud of. You can also think out of the box, add additional features and pages that you think would improve this app. Remember, this is your chance to showcase us your skills.
 
 ### Current Code & Structure
 
-The application is split into two parts, the server and the client. This test is mainly focussing on the client aspect of the code, so try and work mainly in the client folder. All code is written in TypeScript with React as this is what we use at Wisenet daily.
+The application is split into two parts, the server and the client. This test is mainly focussing on the client aspect of the code, so try and focus mainly in the client folder. All code is written in TypeScript with React as this is what we use at Wisenet daily.
+
+PS: you're welcome to tinker with the server and how it's implemented if you think you can improve on it, and
+have enough time. but it's not required.
 
 ##### Server
 
@@ -18,7 +21,9 @@ The server is a basic API endpoint for accessing dummy data. The server is built
 
 ##### Client
 
-The client is a basic create-react-app application that renders a product listing page. The page itself shows around 40 products from a specific product category. The code and UX could do with some improvement, we've worked hard to create it in a way that will allow you plenty of room to show off your skills and experience that you've gained working as a Frontend Engineer. Please take some time to look around and spot all the areas that you would like to improve. Remember, that when you are finished, you should be happy with your work.
+The client is a basic create-react-app application that renders a product listing page. The page itself shows around 40 products from a specific product category. The code and UX could definitely do with some improvement, we've worked hard to create it in a way that will allow you plenty of room to show off your skills and experience that you've gained working as a Frontend Engineer. Please take some time to look around and spot all the areas that you would like to improve.
+
+You can add additional pages Like a simple Product Page, Cart, About us, contact us Page etc and any other stuff that you could do to showcase your skills. Remember, that when you are finished, you should be happy and proud with your work.
 
 If you find that you couldn't finish everything that you wanted to, then please make a note of them in the [TODO.md](TODO.md). Make sure to include what it was you wanted to do and why you wanted to do it.
 
@@ -28,15 +33,15 @@ Both the server and client need to be installed and started.
 
 ##### Server
 
-1) `cd server`
-2) `npm install`
-2) `npm start`
+1. `cd server`
+2. `npm install`
+3. `npm start`
 
 ##### Client
 
-1) `cd ../client`
-2) `npm install`
-2) `npm start`
+1. `cd ../client`
+2. `npm install`
+3. `npm start`
 
 _Note: create-react-app should open your default browser at localhost to show the application working._
 
@@ -44,10 +49,10 @@ _Note: create-react-app should open your default browser at localhost to show th
 
 We use the following technologies. Demonstrating how you would use these would make it easier for us to see how smooth your transition into the team might be:
 
-1) React with [Hooks](https://reactjs.org/docs/hooks-intro.html)
-2) [Jest](https://jestjs.io/)
-3)  [styled-components](https://styled-components.com/)
-4) [TypeScript](https://www.typescriptlang.org/)
+1. React with [Hooks](https://reactjs.org/docs/hooks-intro.html)
+2. [Jest](https://jestjs.io/)
+3. [styled-components](https://styled-components.com/)
+4. [TypeScript](https://www.typescriptlang.org/)
 
 _Note: it's not compulsory to use these technologies but it does help the team process your submission faster. If you aren't familiar with some or all of these then please don't worry, use whatever you need to get the job done_
 
@@ -61,7 +66,7 @@ If you have any feedback or notes that you'd like to share with the team please 
 
 ### What to expect
 
-The team will review your submission and if everyone is happy with the work, we'll ask you to come in and meet us. Getting feedback on your submission can take anything between  3 - 5 working days.
+The team will review your submission and if everyone is happy with the work, we'll email you to schedule a time to have a chat. Getting feedback on your submission can take anything between 3 - 5 working days.
 
 ### Closing notes
 
